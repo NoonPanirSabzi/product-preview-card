@@ -11,9 +11,15 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,WONK@9..144,100..900,1&family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>🎈Product preview card🎈</title>
   </head>
-  <body>
+  <body class="no-margin">
     <main>
       <article class="product-card">
         <picture>
@@ -27,15 +33,19 @@
           />
         </picture>
         <section>
-          <span class="overline">PERFUME</span>
-          <h1>Gabrielle Essence Eau De Parfum</h1>
-          <p>
+          <span class="overline txt-montserrat font-overline">PERFUME</span>
+          <h1 class="no-margin txt-display color-gunmetal">
+            Gabrielle Essence Eau De Parfum
+          </h1>
+          <p class="no-margin txt-montserrat font-body color-aurometal-saurus">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
           <div class="price-box">
-            <div>$149.99</div>
-            <div>$169.99</div>
+            <div class="txt-display color-deep-aquamarine">$149.99</div>
+            <div class="txt-montserrat font-body color-aurometal-saurus">
+              $169.99
+            </div>
           </div>
           <button type="button">
             <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +54,7 @@
                 fill="#FFF"
               />
             </svg>
-            <span>Add to Cart</span>
+            <span class="txt-montserrat font-body color-white">Add to Cart</span>
           </button>
         </section>
       </article>
