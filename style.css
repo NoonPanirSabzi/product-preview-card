@@ -90,6 +90,7 @@ main {
 
 img {
   inline-size: 100%;
+  block-size: auto;
   display: block;
 }
 
@@ -129,6 +130,43 @@ button {
   border-radius: 0.5rem;
 }
 
+button:hover {
+  background-color: var(--deep-aquamarine-hover);
+  cursor: pointer;
+}
+
 svg {
   margin-inline-end: 0.65rem;
+}
+
+/* 48rem = 768px assuming 1rem=16px */
+@media (min-width: 48rem) {
+  .product-card {
+    display: flex;
+    inline-size: 37.5rem;
+  }
+  .img-wrapper {
+    border-top-left-radius: inherit;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: inherit;
+  }
+  img {
+    block-size: 100%;
+  }
+  .content {
+    padding: 2rem;
+    max-inline-size: 14.78rem;
+  }
+  .margin-overline {
+    margin-block-end: 1.25rem;
+  }
+  .margin-title {
+    margin-block: 0 1.5rem;
+  }
+  .margin-p {
+    margin-block: 0 1.875rem;
+  }
+  .margin-price {
+    margin-block-end: 1.875rem;
+  }
 }
