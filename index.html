@@ -22,28 +22,34 @@
   <body class="no-margin">
     <main>
       <article class="product-card">
-        <picture>
-          <source
-            media="(min-width: 48rem)"
-            srcset="images/image-product-desktop.jpg"
-          />
-          <img
-            src="images/image-product-mobile.jpg"
-            alt="perfume picture is here"
-          />
-        </picture>
-        <section>
-          <span class="overline txt-montserrat font-overline">PERFUME</span>
-          <h1 class="no-margin txt-display color-gunmetal">
+        <div class="img-wrapper">
+          <picture>
+            <source
+              media="(min-width: 48rem)"
+              srcset="images/image-product-desktop.jpg"
+            />
+            <img
+              src="images/image-product-mobile.jpg"
+              alt="perfume picture is here"
+            />
+          </picture>
+        </div>
+        <section class="content">
+          <span class="overline txt-montserrat font-overline margin-overline"
+            >PERFUME</span
+          >
+          <h1 class="txt-display color-gunmetal margin-title">
             Gabrielle Essence Eau De Parfum
           </h1>
-          <p class="no-margin txt-montserrat font-body color-aurometal-saurus">
+          <p class="txt-montserrat font-body color-aurometal-saurus margin-p">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
-          <div class="price-box">
+          <div class="price-box margin-price">
             <div class="txt-display color-deep-aquamarine">$149.99</div>
-            <div class="txt-montserrat font-body color-aurometal-saurus">
+            <div
+              class="txt-montserrat font-body color-aurometal-saurus text-line-trough"
+            >
               $169.99
             </div>
           </div>
@@ -54,7 +60,9 @@
                 fill="#FFF"
               />
             </svg>
-            <span class="txt-montserrat font-body color-white">Add to Cart</span>
+            <span class="txt-montserrat font-button-text color-white"
+              >Add to Cart</span
+            >
           </button>
         </section>
       </article>
