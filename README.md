@@ -15,11 +15,11 @@
 
 ### Screenshot and live site URL
 
-| Desktop                                     | Tablet                                    | Mobile                                    |
-| ------------------------------------------- | ----------------------------------------- | ----------------------------------------- |
-| ![desktop](/assets/desktop-screenshot.jpeg) | ![Tablet](/assets/tablet-screenshot.jpeg) | ![Mobile](/assets/mobile-screenshot.jpeg) |
+| Desktop                                     | Mobile                                    |
+| ------------------------------------------- | ----------------------------------------- |
+| ![desktop](/images/desktop-screenshot.png)  | ![Mobile](/images/mobile-screenshot.png) |
 
-[Live Site URL](Link)
+[Live Site URL](https://noonpanirsabzi.github.io/product-preview-card/)
 
 ## My process
 
